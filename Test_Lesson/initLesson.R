@@ -10,8 +10,8 @@
   )
 }
 
-.pathtofile <- function(fileName){
-  mypath <<- file.path(.get_course_path(),
+.pathtofile <<- function(fileName){
+  mypath <- file.path(.get_course_path(),
                       "Test_Course", "Test_Lesson",
                       fileName)
 }
