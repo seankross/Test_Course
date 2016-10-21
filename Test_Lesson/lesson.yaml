@@ -1,26 +1,26 @@
 - Class: meta
   Course: Test Course
   Lesson: Test Lesson
-  Author: your name goes here
+  Author: Sean Kross
   Type: Standard
-  Organization: your organization's name goes here
+  Organization: JHU
   Version: 2.4.1
 
 - Class: text
   Output: Type your text output here.
 
 - Class: cmd_question
-  Output: What's 2 + 2 ?
-  CorrectAnswer: sum(2, 2)
+  Output: Enter 2 + 2
+  CorrectAnswer: 2 + 2
   AnswerTests: omnitest(correctExpr='2 + 2')
-  Hint: Type a hint.
+  Hint: Type 2 + 2
 
 - Class: mult_question
   Output: Type your text output here.
   AnswerChoices: ANS;2;3
   CorrectAnswer: ANS
   AnswerTests: omnitest(correctVal='ANS')
-  Hint: Type a hint.
+  Hint: ANS is correct.
 
 - Class: figure
   Output: Look at this figure!
@@ -35,7 +35,7 @@
 - Class: script
   Output: Write a boring function.
   AnswerTests: test_func1()
-  Hint: Type a hint.
+  Hint: Delete the pound sign.
   Script: boring_function.R
 
 - Class: video
@@ -46,13 +46,13 @@
   Output: Type 3.
   CorrectAnswer: 3
   AnswerTests: omnitest(correctVal = 3)
-  Hint: Type a hint.
+  Hint: Type 3
 
 - Class: text_question
   Output: Type 'Hello'
   CorrectAnswer: 'Hello'
   AnswerTests: omnitest(correctVal = 'Hello')
-  Hint: Type a hint.
+  Hint: Type Hello
   
 - Class: figure
   Output: Look at this html file.
